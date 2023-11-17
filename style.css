@@ -119,7 +119,7 @@ p{
 @media screen and (max-width: 768px) {
     .top-banner-right  img{
         height:auto;
-        width:auto;
+        width:450px;
       }
     }
     @media screen and (max-width: 576px) {
