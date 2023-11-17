@@ -137,6 +137,7 @@ p{
           .top-bannner-card p{
             font-size: 13px;
             line-height:  25px;
+            width: 500px;
           }
           .top-bannner-card  img{
             height:auto;
@@ -257,17 +258,32 @@ p{
     align-items: center;
     justify-content: center;
 }
-/* @media screen and (max-width:576px){
+@media screen and (max-width:576px){
     .under-card-right p{
-        font-size: ;
+        font-size: 12px;
+        width: 500px;
     }
-} */
+    .under-card-right h1{
+        font-size: 20px;
+    }
+    .under-card-right h1 span{
+        font-size: 20px;
+        padding:0px 6px;
+    }
+    .under-card-right button{
+        height: auto;
+        width: auto;
+        font-size: 10px;
+    }
+
+
+}
 .top-globe-card{
     padding:50px;
 }
 
 .top-globe-card h1{
-    padding:50px;
+    padding:50px 0px;
     color: #FFF;
     font-size: 54px;
     font-style: normal;
@@ -327,6 +343,19 @@ p{
     width: 82px;
     height: 82px;
 }
+@media screen and (max-width:576px){
+    .top-globe-card h1{
+        font-size: 20px;
+    }
+    .top-globe-card h1 span{
+        font-size: 20px;
+    }
+    .top-globe-card p{
+        font-size:12px;
+        padding:0px;
+    }
+
+}
 .web-card h1{
     color: #7FED28;
     text-align: center;
@@ -343,6 +372,19 @@ p{
     font-weight: 400;
     line-height: 26px; /* 144.444% */
     padding:20px;
+}
+@media screen and (max-width:576px){
+    .web-card h1{
+        font-size: 20px; 
+    }
+    .web-card p{
+        font-size: 12px; 
+    }
+    .web-card .cards-img{
+        height: 50px;
+        width: 50px;
+    }
+
 }
 .top-comprehense-card{
     display: flex;
@@ -386,10 +428,17 @@ p{
 }
 @media screen and (max-width:576px) {
     .top-comprehense-card h1{
-        font-size: 40px;
+        font-size: 20px;
     }
     .top-comprehense-card h1 span{
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .comprehense-card h1{
+        font-size: 20px;
+        padding:0px;
+    }
+    .comprehense-card p{
+        font-size: 12px;
     }
 }
 .web-tiles{
@@ -678,16 +727,13 @@ p{
 
 @media screen and (max-width:576px) {
     .tech-card-top  h1{
-        font-size: 30px !important;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
+        font-size: 20px !important;
     }
     .tech-card-top h1 span{
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
     .tech-card-top  p{
-        font-size: 25px !important;
+        font-size: 15px !important;
     }
     .tech-stack h1{
         display: contents;
@@ -836,6 +882,17 @@ p{
     justify-content: center;
     align-items: start;
 }
+@media  screen and (max-width:576px){
+    .tech-stack h1{
+        font-size: 20px;
+    }
+    .tech-stack h1 span{
+        font-size: 20px;
+    }
+    .tech-stack .sheet-2{
+        height: 100%;
+    } 
+}
 .talent-card-top{
     background: #070D14;
     position: relative;
@@ -872,25 +929,29 @@ p{
     background: #070D14;
 }
 @media screen and (max-width:576px) {
-    .talent-card-top  h1{
-        font-size: 20px !important;
+    .talent-card  h1{
+        font-size: 20px;
     }
-    .talent-card-top button{
-        margin-top:  100px;
+    .talent-card button{
+        height: auto;
+        width:auto;
+        font-size: 12px;
+        padding:5px;
     }
+   
   }
-  @media screen and (max-width:768px) {
+  /* @media screen and (max-width:768px) {
     .talent-card-top  h1{
-     font-size: 30px !important;
+     font-size: 30px ;
      width:100%;
     }
   }
   @media screen and (max-width:992px) {
     .talent-card-top  h1{
-     font-size: 35px !important;
+     font-size: 35px;
      width:100%;
     }
-  }
+  } */
 .revel-card-top{
     position: relative;
 }
