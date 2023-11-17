@@ -545,6 +545,7 @@ p{
     height: 19px;
     position: absolute;
     display: block;
+    margin:0px -25px; 
 }
 .we-cover-left ul li :hover{
     color: #7FED28;
@@ -750,6 +751,7 @@ p{
     position: absolute;
     width: 22px;
     height: 22px;
+    margin:0px -25px;
 }
 .tech-stack-top .sheet-2 h3{
     color: #070D14;
@@ -796,6 +798,7 @@ p{
     width: 22px;
     height: 22px;
     display: block;
+    margin:0px -25px;
 }
 .sheet-3 h3{
     color: #7FED28;
