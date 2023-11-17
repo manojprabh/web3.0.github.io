@@ -115,22 +115,32 @@ p{
     right: 300px;
     bottom:80px;
 }
-@media screen and (max-width:576px) {
-    .top-bannner-card  img{
-      height:150px;
-      width:700px;
-    }
-  }
+
 @media screen and (max-width: 768px) {
     .top-banner-right  img{
-        height:350px;
-        width:550px;
+        height:auto;
+        width:auto;
       }
     }
     @media screen and (max-width: 576px) {
-        .top-bannner-card h1,h2,p{
-            font-size: 50px;
+        .top-bannner-card h1{
+            font-size: 20px;
             line-height: 2px;
+            display: block;
+          }
+          .top-bannner-card h2{
+            font-size: 20px;
+            line-height:  25px;
+            width:auto;
+            height: auto;
+          }
+          .top-bannner-card p{
+            font-size: 13px;
+            line-height:  25px;
+          }
+          .top-bannner-card  img{
+            height:auto;
+            width:auto;
           }
         }
 .share-card{
@@ -169,6 +179,19 @@ p{
 .share-card button:hover{
     background:linear-gradient(90deg, #86F230 80%, #22CB3C 100%);
 }
+@media screen and (max-width:576px) {
+    /* @media screen and (max-width: 576px) */
+    .share-card p{
+        font-size: 12px;
+    }
+    .share-card span{
+        font-size: 12px;
+    }
+    .share-card button{
+        height: auto;
+        width: auto;
+    }
+}
 .top-under-card{
     padding:50px 0px; 
     background: #101A25;
@@ -201,8 +224,7 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px; /* 111.111% */
-    width: 413px;
-    height: 130px;
+  
 }
 .under-card-right span{
     color: #7FED28;
@@ -210,8 +232,7 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    width: 511px;
-    height: 156px;
+  
 }
 .under-card-right p{
     color: #FFF;
@@ -236,6 +257,11 @@ p{
     align-items: center;
     justify-content: center;
 }
+/* @media screen and (max-width:576px){
+    .under-card-right p{
+        font-size: ;
+    }
+} */
 .top-globe-card{
     padding:50px;
 }
@@ -347,8 +373,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    width: 786px;
-    height: 114px;
 }
 .top-comprehense-card p{
     color: #FFF;
@@ -356,8 +380,6 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
-    width: 208px;
-    height: 213px;
 }
 .top-comprehense-card i:hover{
     color:white;
@@ -406,7 +428,7 @@ p{
    
 }
 .web-tiles-top::after{
-    background: url('images/laptop.png');
+    background: url('/images/laptop.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -472,8 +494,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
-    width: 492px;
-    height: 106px;
 }
 .we-cover-top p{
     color: #FFF;
@@ -488,8 +508,6 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 50px; 
-     width: 116px;
-    height: 182px;
     flex-shrink: 0;
 }
 .we-cover-top h1 span{
@@ -540,7 +558,7 @@ p{
 }
 .we-cover-left ul li::before{
     content:"";
-    background: url('images/globe1.webp') no-repeat 0 0;
+    background: url('/images/globe1.webp') no-repeat 0 0;
     width:19px;
     height: 19px;
     position: absolute;
@@ -697,8 +715,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px; /* 111.111% */
-    width: 878px;
-    height: 112px;
     margin:30px 0px 100px 80px;
 }
 .tech-stack-top h1 span{
@@ -707,8 +723,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    width: 874px;
-    height: 114px;
 }
 .tech-stack-top ul li{
     list-style-type: none;
@@ -739,14 +753,12 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 141.667% */
-    width: 272px;
-    height: 44px;
     padding:20px 0px 10px 0px; /*2593*/
 }
 .tech-stack-top .sheet-1 ul li::before{
     content: "";
     position: relative;
-    background: url('images/joypad.png') no-repeat scroll;
+    background: url('/images/joypad.png') no-repeat scroll;
     content: "";
     position: absolute;
     width: 22px;
@@ -759,8 +771,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 141.667% */
-    width: 272px;
-    height: 44px;
     padding:20px 0px 10px 0px;
 }
 .tech-stack-top .sheet-2 ul li{
@@ -793,7 +803,7 @@ p{
 }
 .tech-stack-top .sheet-2 ul li::before{
     content: "";
-    background: url('images/code1.webp') no-repeat scroll;
+    background: url('/images/code1.webp') no-repeat scroll;
     color:white;
     position: absolute;
     width: 22px;
@@ -807,13 +817,11 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 141.667% */
-    width: 272px;
-    height: 44px;
     padding:20px 0px 10px 0px;
 }
 .tech-stack-top .sheet-3 ul li::before{
     content: "";
-    background: url('images/lap.png') no-repeat scroll;
+    background: url('/images/lap.png') no-repeat scroll;
     width: 22px;
     height: 22px;
     position: absolute;
@@ -850,8 +858,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 48px; /* 114.286% */
-    width: 992px;
-    height: 145px;
     margin:50px;
 }
 .talent-card button{
