@@ -119,7 +119,7 @@ p{
 @media screen and (max-width: 768px) {
     .top-banner-right  img{
         height:auto;
-        width:250px;
+        width:450px;
       }
     }
     @media screen and (max-width: 576px) {
@@ -141,7 +141,7 @@ p{
           }
           .top-bannner-card  img{
             height:auto;
-            width:auto;
+            width:450px;
           }
         }
 .share-card{
