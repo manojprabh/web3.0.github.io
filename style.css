@@ -449,7 +449,7 @@ p{
         margin-top:20px;
     }
     .web-tiles-top::after{
-        background: url('images/laptop.png');
+        background: url('/images/laptop.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
