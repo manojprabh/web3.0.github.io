@@ -310,6 +310,21 @@ p{
         left: 300px;
         bottom:200px;
     }
+    .top-share-card::before{
+        content:"";
+        display: none;
+        position: absolute;
+        top:-150px;
+        left:-10px;
+        width: 250.014px;
+        height: 422.214px;
+        transform: rotate(38.476deg);
+        padding:0px;
+        border-radius: 22px;
+        filter: blur(150px);
+        background-repeat: no-repeat;
+        background: rgba(27, 136, 216,0.8);
+    }
 
 
 }
