@@ -141,7 +141,7 @@ p{
           }
           .top-bannner-card  img{
             height:auto;
-            width:350px;
+            width:450px;
           }
         }
 .share-card{
@@ -258,6 +258,10 @@ p{
     align-items: center;
     justify-content: center;
 }
+.under-card-left img{
+    height: 403px;
+    width:599px;
+}
 @media screen and (max-width:576px){
     .under-card-right p{
         font-size: 12px;
@@ -274,6 +278,10 @@ p{
         height: auto;
         width: auto;
         font-size: 10px;
+    }
+    .under-card-left img{
+        height: 350px;
+        width:450px;
     }
 
 
