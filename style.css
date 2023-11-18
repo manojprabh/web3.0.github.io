@@ -759,6 +759,20 @@ p{
     .tech-stack h1{
         display: contents;
     }
+    .tech-card-top::after{
+        content:"";
+        display: none;
+        position: absolute;
+        border-radius: 222.214px;
+        background: rgba(27, 136, 216,1);
+        filter: blur(150px);
+        width: 86px;
+        height: 292.667px;
+        transform: rotate(30deg);
+        flex-shrink: 0;
+        right:80px;
+        bottom:0px;
+    }
   }
 .tech-stack-top{
     position:relative;
