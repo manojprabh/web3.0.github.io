@@ -728,7 +728,7 @@ p{
     height: 292.667px;
     transform: rotate(30deg);
     flex-shrink: 0;
-    right:80px;
+    right:180px;
     bottom:0px;
 }
 .tech-card-top::before{
