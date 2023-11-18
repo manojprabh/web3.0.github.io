@@ -283,6 +283,19 @@ p{
         height: 350px;
         width: 350px;
     }
+    .under-card::after{
+        background:rgba(143, 250, 4, 1);
+        filter: blur(150px);
+        font-size: 50px;
+        content:"";
+        display: none;
+        position: absolute;
+        border-radius: 420px;
+        width: 150px;
+        height: 202px;
+        left: 300px;
+        bottom:200px;
+    }
 
 
 }
