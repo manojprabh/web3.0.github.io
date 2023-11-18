@@ -143,6 +143,20 @@ p{
             height:auto;
             width:350px;
           }
+          .top-bannner-card::after{
+            content:"";
+            display: none;
+            position: absolute;
+            border-radius: 422.214px;
+            background: rgba(27, 136, 216,0.8);
+            filter: blur(150px);
+            width: 225px;
+            height: 212px;
+            transform: rotate(38.476deg);
+            flex-shrink: 0;
+            right: 110px;
+            bottom:-270px;
+        }
         }
 .share-card{
     padding: 50px;
