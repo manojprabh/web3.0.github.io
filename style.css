@@ -224,7 +224,7 @@ p{
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
   
 }
 .under-card-right span{
@@ -281,7 +281,7 @@ p{
     }
     .under-card-left img{
         height: 350px;
-        width:380px;
+        width:450px;
     }
 
 
@@ -297,7 +297,7 @@ p{
     font-style: normal;
     text-align: center;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
 }
 .top-globe-card span{
     color: #7FED28;
@@ -414,7 +414,7 @@ p{
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
 }
 .top-comprehense-card span{
     color: #7FED28;
@@ -659,7 +659,7 @@ p{
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
     padding:20px 0px;
 }
 .tech-card-top h1 span{
@@ -711,7 +711,7 @@ p{
     border-radius: 222.214px;
     background: rgba(27, 136, 216,1);
     filter: blur(150px);
-    width: 126.949px;
+    width: 86px;
     height: 292.667px;
     transform: rotate(30deg);
     flex-shrink: 0;
@@ -768,7 +768,7 @@ p{
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
     margin:30px 0px 100px 80px;
 }
 .tech-stack-top h1 span{
@@ -969,7 +969,7 @@ p{
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 111.111% */
+    line-height: 60px; 
 }
 .revel-card-top h1 span{
     color: #7FED28;
