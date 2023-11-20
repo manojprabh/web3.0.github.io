@@ -116,19 +116,19 @@ p{
     bottom:80px;
 }
 
-    @media screen and (max-width: 576px) {
+    @media screen and (min-width: 576px) {
         .top-bannner-card h1{
-            font-size: 20px;
-            line-height: 2px
+            font-size: 20px !important;
+            line-height: 2px;
           }
           .top-bannner-card h2{
-            font-size: 20px;
-            line-height:  25px;
+            font-size: 20px !important;
+            line-height: 25px;
             width:auto;
             height: auto;
           }
           .top-bannner-card p{
-            font-size: 13px;
+            font-size: 12px !important ;
             line-height:  25px;
             width: 500px;
           }
@@ -151,19 +151,19 @@ p{
             bottom:-270px;
         }
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (min-width: 768px) {
             .top-bannner-card h1{
-                font-size: 35px;
+                font-size: 35px !important;
                 line-height: 2px;
               }
               .top-bannner-card h2{
-                font-size: 25px;
+                font-size: 25px !important;
                 line-height:  25px;
                 width:auto;
                 height: auto;
               }
               .top-bannner-card p{
-                font-size: 18px;
+                font-size: 18px !important;
                 line-height:  25px;
                 width: 500px;
               }
@@ -191,7 +191,7 @@ p{
               }
             }
             
-        @media screen and (max-width: 992px) {
+        @media screen and (min-width: 992px) {
             .top-bannner-left{
                 display: flex;
                 height: 100%;
@@ -257,7 +257,7 @@ p{
 }
 .share-card button{
     color: #080F18;
-    font-size: 20px;
+    font-size: 20px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -269,34 +269,34 @@ p{
 .share-card button:hover{
     background:linear-gradient(90deg, #86F230 80%, #22CB3C 100%);
 }
-@media screen and (max-width:576px) {
-    /* @media screen and (max-width: 576px) */
+@media screen and (min-width:576px) {
+    /* @media screen and (min-width: 576px) */
     .share-card p{
-        font-size: 12px;
+        font-size: 12px !important;
     }
     .share-card span{
-        font-size: 12px;
+        font-size: 12px !important;
     }
     .share-card button{
         height: auto;
         width: auto;
     }
 }
-@media screen and (max-width:768px) {
-    /* @media screen and (max-width: 576px) */
+@media screen and (min-width:768px) {
+    /* @media screen and (min-width: 576px) */
     .share-card p{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .share-card span{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .share-card button{
         height: auto;
         width: auto;
     }
 }
-@media screen and (max-width:992px) {
-    /* @media screen and (max-width: 576px) */
+@media screen and (min-width:992px) {
+    /* @media screen and (min-width: 576px) */
     .share-card p{
         font-size: 25px;
     }
@@ -377,16 +377,16 @@ p{
     height: 403px;
     width:599px;
 }
-@media screen and (max-width:576px){
+@media screen and (min-width:576px){
     .under-card-right p{
-        font-size: 12px;
+        font-size: 12px !important;
         width: 500px;
     }
     .under-card-right h1{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .under-card-right h1 span{
-        font-size: 20px;
+        font-size: 20px !important;
         padding:0px 6px;
     }
     .under-card-right button{
@@ -429,22 +429,22 @@ p{
 
 
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
     .under-card-right p{
-        font-size: 15px;
+        font-size: 15px !important;
 
     }
     .under-card-right h1{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .under-card-right h1 span{
-        font-size: 35px;
+        font-size: 35px !important;
         padding:0px 6px;
     }
     .under-card-right button{
         height: 50px;
         width: 150px;
-        font-size: 12px;
+        font-size: 12px !important;
     }
     .under-card-left img{
         height: 100%;
@@ -548,25 +548,25 @@ p{
     width: 82px;
     height: 82px;
 }
-@media screen and (max-width:576px){
+@media screen and (min-width:576px){
     .top-globe-card h1{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .top-globe-card h1 span{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .top-globe-card p{
-        font-size:12px;
+        font-size:12px !important;
         padding:0px;
     }
 
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
     .top-globe-card h1{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .top-globe-card h1 span{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .top-globe-card p{
         font-size:16px;
@@ -590,12 +590,12 @@ p{
     line-height: 26px; /* 144.444% */
     padding:20px;
 }
-@media screen and (max-width:576px){
+@media screen and (min-width:576px){
     .web-card h1{
-        font-size: 20px; 
+        font-size: 20px !important; 
     }
     .web-card p{
-        font-size: 12px; 
+        font-size: 12px !important; 
     }
     .web-card .cards-img{
         height: 50px;
@@ -603,12 +603,12 @@ p{
     }
 
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
     .web-card h1{
-        font-size: 35px; 
+        font-size: 35px !important; 
     }
     .web-card p{
-        font-size: 16px; 
+        font-size: 16px !important; 
     }
     .web-card .cards-img{
         height: 70px;
@@ -656,34 +656,34 @@ p{
 .top-comprehense-card i:hover{
     color:white;
 }
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .top-comprehense-card h1{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .top-comprehense-card h1 span{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .comprehense-card h1{
-        font-size: 20px;
+        font-size: 20px !important;
         padding:0px;
     }
     .comprehense-card p{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .top-comprehense-card h1{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .top-comprehense-card h1 span{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .comprehense-card h1{
-        font-size: 35px;
+        font-size: 35px !important;
         padding:0px;
     }
     .comprehense-card p{
-        font-size: 16px;
+        font-size: 16px !important;
     }
 }
 .web-tiles{
@@ -759,7 +759,7 @@ p{
     width: 128px;
     height: 120.484px;
 }
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .tabular-1{
         display: flex;
         margin-top:20px;
@@ -778,13 +778,13 @@ p{
         height:180px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .tabular-1{
         display: flex;
         margin-top:20px;
     }
     .web-tiles-top::after{
-        background: url('/images/laptop.png');
+        background: url('images/laptop.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -797,7 +797,7 @@ p{
         height:280px;
     }
     .web-tiles-top p{
-        font-size: 16px;
+        font-size: 16px !important;
     }
 }
 .we-cover-top{
@@ -874,7 +874,7 @@ p{
 }
 .we-cover-left ul li::before{
     content:"";
-    background: url('/images/globe1.webp') no-repeat 0 0;
+    background: url('images/globe1.webp') no-repeat 0 0;
     width:19px;
     height: 19px;
     position: absolute;
@@ -888,12 +888,12 @@ p{
     font-weight: 400;
     line-height: 50px;
 }
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .we-cover-top  h1{
-        font-size: 20px !important;
+        font-size: 20px !important ;
     }
     .we-cover-top h1 span{
-        font-size: 20px !important;
+        font-size: 20px !important ;
     }
     .we-cover-top  p{
         font-size: 10px !important;
@@ -902,7 +902,7 @@ p{
         display: contents;
     }
   }
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:768px) {
     .we-cover-top  h1{
         font-size: 35px !important;
     }
@@ -1006,9 +1006,9 @@ p{
     top:0px;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .tech-card-top  h1{
-        font-size: 20px !important;
+        font-size: 20px !important ;
     }
     .tech-card-top h1 span{
         font-size: 20px !important;
@@ -1034,7 +1034,7 @@ p{
         bottom:0px;
     }
   }
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:768px) {
     .tech-card-top  h1{
         font-size: 35px !important;
     }
@@ -1127,7 +1127,7 @@ p{
 .tech-stack-top .sheet-1 ul li::before{
     content: "";
     position: relative;
-    background: url('/images/joypad.png') no-repeat scroll;
+    background: url('images/joypad.png') no-repeat scroll;
     content: "";
     position: absolute;
     width: 22px;
@@ -1172,7 +1172,7 @@ p{
 }
 .tech-stack-top .sheet-2 ul li::before{
     content: "";
-    background: url('/images/code1.webp') no-repeat scroll;
+    background: url('images/code1.webp') no-repeat scroll;
     color:white;
     position: absolute;
     width: 22px;
@@ -1190,7 +1190,7 @@ p{
 }
 .tech-stack-top .sheet-3 ul li::before{
     content: "";
-    background: url('/images/lap.png') no-repeat scroll;
+    background: url('images/lap.png') no-repeat scroll;
     width: 22px;
     height: 22px;
     position: absolute;
@@ -1205,23 +1205,23 @@ p{
     justify-content: center;
     align-items: start;
 }
-@media  screen and (max-width:576px){
+@media  screen and (min-width:576px){
     .tech-stack h1{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .tech-stack h1 span{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .tech-stack .sheet-2{
         height: 100%;
     } 
 }
-@media  screen and (max-width:768px){
+@media  screen and (min-width:768px){
     .tech-stack h1{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .tech-stack h1 span{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .tech-stack .sheet-2{
         height: 95% !important;
@@ -1253,7 +1253,7 @@ p{
 }
 .talent-card button{
     color: #FFF;
-    font-size: 20px;
+    font-size: 20px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -1262,26 +1262,26 @@ p{
     border-radius: 5px;
     background: #070D14;
 }
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .talent-card  h1{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .talent-card button{
         height: auto;
         width:auto;
-        font-size: 12px;
+        font-size: 12px !important;
         padding:5px;
     }
    
   }
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:768px) {
     .talent-card  h1{
         font-size: 35px;
     }
     .talent-card button{
         height: auto;
         width:auto;
-        font-size: 20px;
+        font-size: 20px !important;
         padding:15px;
     }
    
@@ -1328,7 +1328,7 @@ p{
 }
 .revel-card-right::before{
     content:"";
-    background: url(images/logo2.png) no-repeat scroll center center;
+    background: url('images/logo2.png') no-repeat scroll center center;
     width:56px;
     height:59px;
     display: block;
@@ -1337,12 +1337,12 @@ p{
     top:10px;
     
 }
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .revel-card-top  h1{
-     font-size: 20px;
+     font-size: 20px !important;
     }
     .revel-card-top h1 span{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .revel-card-right::before{
         display: none;
@@ -1351,12 +1351,12 @@ p{
         display: none;
     }
   }
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:768px) {
     .revel-card-top  h1{
-     font-size: 35px;
+     font-size: 35px !important;
     }
     .revel-card-top h1 span{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .revel-card-right::before{
         display: none;
@@ -1365,6 +1365,6 @@ p{
         display: none;
     }
     .revel-card-top p{
-        font-size: 16px;
+        font-size: 16px !important;
     }
   }
