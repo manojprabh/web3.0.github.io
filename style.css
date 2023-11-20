@@ -116,17 +116,10 @@ p{
     bottom:80px;
 }
 
-@media screen and (max-width: 768px) {
-    .top-banner-right  img{
-        height:auto;
-        width:450px;
-      }
-    }
     @media screen and (max-width: 576px) {
         .top-bannner-card h1{
             font-size: 20px;
-            line-height: 2px;
-            display: block;
+            line-height: 2px
           }
           .top-bannner-card h2{
             font-size: 20px;
@@ -158,6 +151,88 @@ p{
             bottom:-270px;
         }
         }
+        @media screen and (max-width: 768px) {
+            .top-bannner-card h1{
+                font-size: 35px;
+                line-height: 2px;
+              }
+              .top-bannner-card h2{
+                font-size: 25px;
+                line-height:  25px;
+                width:auto;
+                height: auto;
+              }
+              .top-bannner-card p{
+                font-size: 18px;
+                line-height:  25px;
+                width: 500px;
+              }
+              .top-bannner-card  img{
+                height:auto;
+                width:100%;
+              }
+              .top-bannner-card::after{
+                content:"";
+                display: block;
+                position: absolute;
+                border-radius: 422.214px;
+                background: rgba(27, 136, 216,0.8);
+                filter: blur(150px);
+                width: 225px;
+                height: 212px;
+                transform: rotate(38.476deg);
+                flex-shrink: 0;
+                right: 110px;
+                bottom:-270px;
+            }
+            .top-banner-right  img{
+                height:auto;
+                width:450px;
+              }
+            }
+            
+        @media screen and (max-width: 992px) {
+            .top-bannner-left{
+                display: flex;
+                height: 100%;
+                justify-content: center;
+            }
+                .top-bannner-card h1{
+                    font-size: 35px;
+                    line-height: 2px;
+                  }
+                  .top-bannner-card h2{
+                    font-size: 35px;
+                    line-height:  45px;
+                  }
+                  .top-bannner-card p{
+                    font-size: 18px;
+                    line-height:  25px;
+                    width: 500px;
+                  }
+                  .top-bannner-card  img{
+                    height:auto;
+                    width:100%;
+                  }
+                  .top-bannner-card::after{
+                    content:"";
+                    display: block;
+                    position: absolute;
+                    border-radius: 422.214px;
+                    background: rgba(27, 136, 216,0.8);
+                    filter: blur(150px);
+                    width: 225px;
+                    height: 212px;
+                    transform: rotate(38.476deg);
+                    flex-shrink: 0;
+                    right: 110px;
+                    bottom:-270px;
+                }
+                .top-banner-right  img{
+                    height:auto;
+                    width:450px;
+                  }
+                }         
 .share-card{
     padding: 50px;
     display: flex;
@@ -201,6 +276,32 @@ p{
     }
     .share-card span{
         font-size: 12px;
+    }
+    .share-card button{
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    /* @media screen and (max-width: 576px) */
+    .share-card p{
+        font-size: 20px;
+    }
+    .share-card span{
+        font-size: 20px;
+    }
+    .share-card button{
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width:992px) {
+    /* @media screen and (max-width: 576px) */
+    .share-card p{
+        font-size: 25px;
+    }
+    .share-card span{
+        font-size: 25px;
     }
     .share-card button{
         height: auto;
@@ -328,6 +429,60 @@ p{
 
 
 }
+@media screen and (max-width:768px){
+    .under-card-right p{
+        font-size: 15px;
+
+    }
+    .under-card-right h1{
+        font-size: 35px;
+    }
+    .under-card-right h1 span{
+        font-size: 35px;
+        padding:0px 6px;
+    }
+    .under-card-right button{
+        height: 50px;
+        width: 150px;
+        font-size: 12px;
+    }
+    .under-card-left img{
+        height: 100%;
+        width: 100%;
+    }
+    .under-card::after{
+        background:rgba(143, 250, 4, 1);
+        filter: blur(150px);
+        font-size: 50px;
+        content:"";
+        display: none;
+        position: absolute;
+        border-radius: 420px;
+        width: 150px;
+        height: 202px;
+        left: 300px;
+        bottom:200px;
+    }
+    .top-share-card::before{
+        content:"";
+        display: none;
+        position: absolute;
+        top:-150px;
+        left:-10px;
+        width: 250.014px;
+        height: 422.214px;
+        transform: rotate(38.476deg);
+        padding:0px;
+        border-radius: 22px;
+        filter: blur(150px);
+        background-repeat: no-repeat;
+        background: rgba(27, 136, 216,0.8);
+    }
+    .revel-card-right{
+        display: none;
+    }
+
+}
 .top-globe-card{
     padding:50px;
 }
@@ -406,6 +561,18 @@ p{
     }
 
 }
+@media screen and (max-width:768px){
+    .top-globe-card h1{
+        font-size: 35px;
+    }
+    .top-globe-card h1 span{
+        font-size: 35px;
+    }
+    .top-globe-card p{
+        font-size:16px;
+        padding:0px;
+    }
+}
 .web-card h1{
     color: #7FED28;
     text-align: center;
@@ -436,6 +603,19 @@ p{
     }
 
 }
+@media screen and (max-width:768px){
+    .web-card h1{
+        font-size: 35px; 
+    }
+    .web-card p{
+        font-size: 16px; 
+    }
+    .web-card .cards-img{
+        height: 70px;
+        width: 70px;
+    }
+
+}
 .top-comprehense-card{
     display: flex;
 }
@@ -445,7 +625,7 @@ p{
     justify-content: space-between;
 }
 .comprehense-card i{
-    font-size: 30px;
+    font-size: 35px;
     fill: #101A25;
     stroke-width: 20px;
     stroke: #3A4146;
@@ -489,6 +669,21 @@ p{
     }
     .comprehense-card p{
         font-size: 12px;
+    }
+}
+@media screen and (max-width:768px) {
+    .top-comprehense-card h1{
+        font-size: 35px;
+    }
+    .top-comprehense-card h1 span{
+        font-size: 35px;
+    }
+    .comprehense-card h1{
+        font-size: 35px;
+        padding:0px;
+    }
+    .comprehense-card p{
+        font-size: 16px;
     }
 }
 .web-tiles{
@@ -580,7 +775,29 @@ p{
         right:150px;
         top: 0px;
         width:450px;
+        height:180px;
+    }
+}
+@media screen and (max-width:768px) {
+    .tabular-1{
+        display: flex;
+        margin-top:20px;
+    }
+    .web-tiles-top::after{
+        background: url('/images/laptop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        position:absolute;
+        content:"";
+        right:150px;
+        top: 110px;
+        width:450px;
         height:280px;
+    }
+    .web-tiles-top p{
+        font-size: 16px;
     }
 }
 .we-cover-top{
@@ -673,13 +890,27 @@ p{
 }
 @media screen and (max-width:576px) {
     .we-cover-top  h1{
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
     .we-cover-top h1 span{
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
     .we-cover-top  p{
         font-size: 10px !important;
+    }
+    .we-cover-left h1{
+        display: contents;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .we-cover-top  h1{
+        font-size: 35px !important;
+    }
+    .we-cover-top h1 span{
+        font-size: 35px !important;
+    }
+    .we-cover-top  p{
+        font-size: 16px !important;
     }
     .we-cover-left h1{
         display: contents;
@@ -803,6 +1034,34 @@ p{
         bottom:0px;
     }
   }
+  @media screen and (max-width:768px) {
+    .tech-card-top  h1{
+        font-size: 35px !important;
+    }
+    .tech-card-top h1 span{
+        font-size: 35px !important;
+    }
+    .tech-card-top  p{
+        font-size: 16px !important;
+    }
+    .tech-stack h1{
+        display: contents;
+    }
+    .tech-card-top::after{
+        content:"";
+        display: block;
+        position: absolute;
+        border-radius: 222.214px;
+        background: rgba(27, 136, 216,1);
+        filter: blur(150px);
+        width: 86px;
+        height: 292.667px;
+        transform: rotate(30deg);
+        flex-shrink: 0;
+        right:80px;
+        bottom:0px;
+    }
+  }
 .tech-stack-top{
     position:relative;
     padding-bottom:30px;
@@ -900,7 +1159,7 @@ p{
 .tech-stack-top .sheet-2{
     border-radius: 15px;
     background: linear-gradient(180deg, #83F030 0%, #26CC3B 100%);
-    height: 120%;
+    height: 120% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -957,6 +1216,17 @@ p{
         height: 100%;
     } 
 }
+@media  screen and (max-width:768px){
+    .tech-stack h1{
+        font-size: 35px;
+    }
+    .tech-stack h1 span{
+        font-size: 35px;
+    }
+    .tech-stack .sheet-2{
+        height: 95% !important;
+    } 
+}
 .talent-card-top{
     background: #070D14;
     position: relative;
@@ -1004,18 +1274,18 @@ p{
     }
    
   }
-  /* @media screen and (max-width:768px) {
-    .talent-card-top  h1{
-     font-size: 30px ;
-     width:100%;
+  @media screen and (max-width:768px) {
+    .talent-card  h1{
+        font-size: 35px;
     }
+    .talent-card button{
+        height: auto;
+        width:auto;
+        font-size: 20px;
+        padding:15px;
+    }
+   
   }
-  @media screen and (max-width:992px) {
-    .talent-card-top  h1{
-     font-size: 35px;
-     width:100%;
-    }
-  } */
 .revel-card-top{
     position: relative;
 }
@@ -1079,5 +1349,22 @@ p{
     }
     .revel-card-right::after{
         display: none;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .revel-card-top  h1{
+     font-size: 35px;
+    }
+    .revel-card-top h1 span{
+        font-size: 35px;
+    }
+    .revel-card-right::before{
+        display: none;
+    }
+    .revel-card-right::after{
+        display: none;
+    }
+    .revel-card-top p{
+        font-size: 16px;
     }
   }
