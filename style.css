@@ -130,10 +130,7 @@ p{
             font-size: 12px !important ;
             line-height:  25px;
           }
-          /* .top-bannner-card  img{
-            height:auto;
-            width:350px;
-          } */
+         
           .top-bannner-card::after{
             content:"";
             display: none;
@@ -157,17 +154,13 @@ p{
               .top-bannner-card h2{
                 font-size: 25px !important;
                 line-height:  25px;
-                /* width:auto;
-                height: auto; */
+               
               }
               .top-bannner-card p{
                 font-size: 18px !important;
                 line-height:  25px;
               }
-              /* .top-bannner-card  img{
-                height:auto;
-                width:100%;
-              } */
+             
               .top-bannner-card::after{
                 content:"";
                 display: block;
@@ -182,10 +175,7 @@ p{
                 right: 110px;       
                 bottom:-270px;
             }
-            .top-banner-right  img{
-                height:auto;
-                width:450px;
-              }
+            
             }
             
         @media screen and (max-width: 992px) {
@@ -205,12 +195,9 @@ p{
                   .top-bannner-card p{
                     font-size: 18px;
                     line-height:  25px;
-                    width: 500px;
+                   
                   }
-                  /* .top-bannner-card  img{
-                    height:auto;
-                    width:100%;
-                  } */
+               
                   .top-bannner-card::after{
                     content:"";
                     display: block;
@@ -225,10 +212,7 @@ p{
                     right: 110px;
                     bottom:-270px;
                 }
-                /* .top-banner-right  img{
-                    height:auto;
-                    width:450px;
-                  } */
+              
                 }         
 .share-card{
     padding: 50px;
@@ -260,8 +244,7 @@ p{
     line-height: normal;
     border-radius: 0px;
     background: linear-gradient(90deg, #86F230 100%, #22CB3C 100%);
-    width: 302px;
-    height: 58px;
+  
 }
 .share-card button:hover{
     background:linear-gradient(90deg, #86F230 80%, #22CB3C 100%);
@@ -274,10 +257,7 @@ p{
     .share-card span{
         font-size: 12px !important;
     }
-    /* .share-card button{
-        height: auto;
-        width: auto;
-    } */
+  
 }
 @media screen and (max-width:768px) {
     /* @media screen and (max-width: 576px) */
@@ -287,10 +267,7 @@ p{
     .share-card span{
         font-size: 20px !important;
     }
-    /* .share-card button{
-        height: auto;
-        width: auto;
-    } */
+   
 }
 @media screen and (max-width:992px) {
     /* @media screen and (max-width: 576px) */
@@ -300,10 +277,7 @@ p{
     .share-card span{
         font-size: 25px;
     }
-    .share-card button{
-        height: auto;
-        width: auto;
-    }
+ 
 }
 .top-under-card{
     padding:50px 0px; 
@@ -386,10 +360,7 @@ p{
     .under-card-right button{
         font-size: 10px;
     }
-    .under-card-left img{
-        height: 350px;
-        width: 350px;
-    }
+   
     .under-card::after{
         background:rgba(143, 250, 4, 1);
         filter: blur(150px);
