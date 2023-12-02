@@ -685,7 +685,7 @@ p{
    
 }
 .web-tiles-top::after{
-    background: url('/images/laptop.png');
+    background: url('images/laptop.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -728,7 +728,7 @@ p{
         margin-top:20px;
     }
     .web-tiles-top::after{
-        background: url('/images/laptop.png');
+        background: url('images/laptop.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -747,7 +747,7 @@ p{
         margin-top:20px;
     }
     .web-tiles-top::after{
-        background: url('/images/laptop.png');
+        background: url('images/laptop.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -837,7 +837,7 @@ p{
 }
 .we-cover-left ul li::before{
     content:"";
-    background: url('/images/globe1.webp') no-repeat 0 0;
+    background: url('images/globe1.webp') no-repeat 0 0;
     width:19px;
     height: 19px;
     position: absolute;
@@ -1091,7 +1091,7 @@ p{
 .tech-stack-top .sheet-1 ul li::before{
     content: "";
     position: relative;
-    background: url('/images/joypad.png') no-repeat scroll;
+    background: url('images/joypad.png') no-repeat scroll;
     content: "";
     position: absolute;
     width: 22px;
@@ -1136,7 +1136,7 @@ p{
 }
 .tech-stack-top .sheet-2 ul li::before{
     content: "";
-    background: url('/images/code1.webp') no-repeat scroll;
+    background: url('images/code1.webp') no-repeat scroll;
     color:white;
     position: absolute;
     width: 22px;
@@ -1154,7 +1154,7 @@ p{
 }
 .tech-stack-top .sheet-3 ul li::before{
     content: "";
-    background: url('/images/lap.png') no-repeat scroll;
+    background: url('images/lap.png') no-repeat scroll;
     width: 22px;
     height: 22px;
     position: absolute;
