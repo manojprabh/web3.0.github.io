@@ -348,7 +348,6 @@ p{
 @media screen and (max-width:576px){
     .under-card-right p{
         font-size: 12px !important;
-        width: 500px;
     }
     .under-card-right h1{
         font-size: 20px !important;
