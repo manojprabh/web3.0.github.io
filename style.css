@@ -726,7 +726,7 @@ p{
         display: flex;
         margin-top:20px;
     }
-    .web-tiles-top::after{
+/*     .web-tiles-top::after{
         background: url('images/laptop.png');
         background-repeat: no-repeat;
         background-position: center center;
@@ -738,7 +738,7 @@ p{
         top: 0px;
         width:450px;
         height:180px;
-    }
+    } */
 }
 @media screen and (max-width:768px) {
     .tabular-1{
